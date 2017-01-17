@@ -1,8 +1,8 @@
 # java-se-jpa-jta-jndi-log4jdbc
 
-======
+
 What to do, if you want to use JPA, but you don't have a Container or an Applikation Server :)
-======
+------
 
 a small Java SE Applikation with 
 
