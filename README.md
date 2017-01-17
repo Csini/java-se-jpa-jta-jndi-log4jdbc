@@ -1,0 +1,1 @@
+# java-se-jpa-jta-jndi-log4jdbc
