@@ -1,0 +1,515 @@
+[
+{countryCode: 'AF', name: 'Afghanistan (‫افغانستان‬‎)', label: 'Afghanistan' }
+,
+{countryCode: 'ABC', name: 'Abchasien', label: 'Abchasien', selbstGegebeneCode: 'true' }
+,
+{countryCode: 'EG', name: 'Ägypten (‫مصر‬‎)', label: 'Ägypten' }
+,
+{countryCode: 'AX', name: 'Ålandinseln (Åland)', label: 'Ålandinseln (Åland)' }
+,
+{countryCode: 'AL', name: 'Albanien (Shqipëri)', label: 'Albanien' }
+,
+{countryCode: 'DZ', name: 'Algerien (Algeria)', label: 'Algerien' }
+,
+{countryCode: 'VI', name: 'Amerikanische Jungferninseln (U.S. Virgin Islands)', label: 'Amerikanische Jungferninseln (U.S. Virgin Islands)' }
+,
+{countryCode: 'UM', name: 'Amerikanische Überseeinseln (U.S. Outlying Islands)', label: 'Amerikanische Überseeinseln (U.S. Outlying Islands)' }
+,
+{countryCode: 'AS', name: 'Amerikanisch-Samoa (American Samoa)', label: 'Amerikanisch-Samoa' }
+,
+{countryCode: 'AD', name: 'Andorra', label: 'Andorra' }
+,
+{countryCode: 'AO', name: 'Angola', label: 'Angola' }
+,
+{countryCode: 'AI', name: 'Anguilla', label: 'Anguilla' }
+,
+{countryCode: 'AQ', name: 'Antarktis (Antarctica)', label: 'Antarktis (Antarctica)' }
+,
+{countryCode: 'AG', name: 'Antigua und Barbuda (Antigua \x26 Barbuda)', label: 'Antigua und Barbuda' }
+,
+{countryCode: 'GQ', name: 'Äquatorialguinea (Guinea Ecuatorial)', label: 'Äquatorialguinea' }
+,
+{countryCode: 'AR', name: 'Argentinien (Argentina)', label: 'Argentinien' }
+,
+{countryCode: 'AM', name: 'Armenien (Հայաստան)', label: 'Armenien' }
+,
+{countryCode: 'AW', name: 'Aruba', label: 'Aruba' }
+,
+{countryCode: 'AC', name: 'Ascension (Ascension Island)', label: 'Ascension' }
+,
+{countryCode: 'AZ', name: 'Aserbaidschan (Azərbaycan)', label: 'Aserbaidschan' }
+,
+{countryCode: 'ET', name: 'Äthiopien (Ethiopia)', label: 'Äthiopien' }
+,
+{countryCode: 'AU', name: 'Australien (Australia)', label: 'Australien' }
+,
+{countryCode: 'BS', name: 'Bahamas', label: 'Bahamas' }
+,
+{countryCode: 'BH', name: 'Bahrain (‫البحرين‬‎)', label: 'Bahrain' }
+,
+{countryCode: 'BD', name: 'Bangladesch (বাংলাদেশ)', label: 'Bangladesch' }
+,
+{countryCode: 'BB', name: 'Barbados', label: 'Barbados' }
+,
+{countryCode: 'BY', name: 'Belarus (Беларусь)', label: 'Belarus' }
+,
+{countryCode: 'BE', name: 'Belgien (Belgium)', label: 'Belgien' }
+,
+{countryCode: 'BZ', name: 'Belize', label: 'Belize' }
+,
+{countryCode: 'BJ', name: 'Benin (Bénin)', label: 'Benin' }
+,
+{countryCode: 'BM', name: 'Bermuda', label: 'Bermuda' }
+,
+{countryCode: 'BT', name: 'Bhutan (འབྲུག)', label: 'Bhutan' }
+,
+{countryCode: 'BO', name: 'Bolivien (Bolivia)', label: 'Bolivien' }
+,
+{countryCode: 'BQ', name: 'Bonaire, Sint Eustatius und Saba (Caribbean Netherlands)', label: 'Bonaire, Sint Eustatius und Saba (Caribbean Netherlands)' }
+,
+{countryCode: 'BA', name: 'Bosnien und Herzegowina (Босна и Херцеговина)', label: 'Bosnien und Herzegowina' }
+,
+{countryCode: 'BW', name: 'Botsuana (Botswana)', label: 'Botsuana' }
+,
+{countryCode: 'BV', name: 'Bouvetinsel (Bouvet Island)', label: 'Bouvetinsel' }
+,
+{countryCode: 'BR', name: 'Brasilien (Brasil)', label: 'Brasilien' }
+,
+{countryCode: 'VG', name: 'Britische Jungferninseln (British Virgin Islands)', label: 'Britische Jungferninseln (British Virgin Islands)' }
+,
+{countryCode: 'IO', name: 'Britisches Territorium im Indischen Ozean (British Indian Ocean Territory)', label: 'Britisches Territorium im Indischen Ozean (British Indian Ocean Territory)' }
+,
+{countryCode: 'BN', name: 'Brunei Darussalam (Brunei)', label: 'Brunei Darussalam (Brunei)' }
+,
+{countryCode: 'BG', name: 'Bulgarien (България)', label: 'Bulgarien (България)' }
+,
+{countryCode: 'BF', name: 'Burkina Faso', label: 'Burkina Faso' }
+,
+{countryCode: 'BI', name: 'Burundi (Uburundi)', label: 'Burundi (Uburundi)' }
+,
+{countryCode: 'EA', name: 'Ceuta und Melilla (Ceuta y Melilla)', label: 'Ceuta und Melilla (Ceuta y Melilla)' }
+,
+{countryCode: 'CL', name: 'Chile', label: 'Chile' }
+,
+{countryCode: 'CN', name: 'China (中国)', label: 'China (中国)' }
+,
+{countryCode: 'CP', name: 'Clipperton-Insel (Clipperton Island)', label: 'Clipperton-Insel (Clipperton Island)' }
+,
+{countryCode: 'CK', name: 'Cookinseln (Cook Islands)', label: 'Cookinseln (Cook Islands)' }
+,
+{countryCode: 'CR', name: 'Costa Rica', label: 'Costa Rica' }
+,
+{countryCode: 'CI', name: 'Côte d’Ivoire', label: 'Côte d’Ivoire' }
+,
+{countryCode: 'CW', name: 'Curaçao', label: 'Curaçao' }
+,
+{countryCode: 'DK', name: 'Dänemark (Danmark)', label: 'Dänemark (Danmark)' }
+,
+{countryCode: 'DE', name: 'Deutschland', label: 'Deutschland' }
+,
+{countryCode: 'DG', name: 'Diego Garcia', label: 'Diego Garcia' }
+,
+{countryCode: 'DM', name: 'Dominica', label: 'Dominica' }
+,
+{countryCode: 'DO', name: 'Dominikanische Republik (República Dominicana)', label: 'Dominikanische Republik (República Dominicana)' }
+,
+{countryCode: 'DJ', name: 'Dschibuti (Djibouti)', label: 'Dschibuti (Djibouti)' }
+,
+{countryCode: 'EC', name: 'Ecuador', label: 'Ecuador' }
+,
+{countryCode: 'SV', name: 'El Salvador', label: 'El Salvador' }
+,
+{countryCode: 'ER', name: 'Eritrea', label: 'Eritrea' }
+,
+{countryCode: 'EE', name: 'Estland (Eesti)', label: 'Estland (Eesti)' }
+,
+{countryCode: 'FK', name: 'Falklandinseln (Falkland Islands (Islas Malvinas))', label: 'Falklandinseln (Falkland Islands (Islas Malvinas))' }
+,
+{countryCode: 'FO', name: 'Färöer (Føroyar)', label: 'Färöer (Føroyar)' }
+,
+{countryCode: 'FJ', name: 'Fidschi (Fiji)', label: 'Fidschi (Fiji)' }
+,
+{countryCode: 'FI', name: 'Finnland (Suomi)', label: 'Finnland (Suomi)' }
+,
+{countryCode: 'FR', name: 'Frankreich (France)', label: 'Frankreich (France)' }
+,
+{countryCode: 'TF', name: 'Französische Süd- und Antarktisgebiete (Terres australes françaises)', label: 'Französische Süd- und Antarktisgebiete (Terres australes françaises)' }
+,
+{countryCode: 'GF', name: 'Französisch-Guayana (Guyane française)', label: 'Französisch-Guayana (Guyane française)' }
+,
+{countryCode: 'PF', name: 'Französisch-Polynesien (Polynésie française)', label: 'Französisch-Polynesien (Polynésie française)' }
+,
+{countryCode: 'GA', name: 'Gabun (Gabon)', label: 'Gabun (Gabon)' }
+,
+{countryCode: 'GM', name: 'Gambia', label: 'Gambia' }
+,
+{countryCode: 'GE', name: 'Georgien (საქართველო)', label: 'Georgien (საქართველო)' }
+,
+{countryCode: 'GH', name: 'Ghana (Gaana)', label: 'Ghana (Gaana)' }
+,
+{countryCode: 'GI', name: 'Gibraltar', label: 'Gibraltar' }
+,
+{countryCode: 'GD', name: 'Grenada', label: 'Grenada' }
+,
+{countryCode: 'GR', name: 'Griechenland (Ελλάδα)', label: 'Griechenland (Ελλάδα)' }
+,
+{countryCode: 'GL', name: 'Grönland (Kalaallit Nunaat)', label: 'Grönland (Kalaallit Nunaat)' }
+,
+{countryCode: 'GP', name: 'Guadeloupe', label: 'Guadeloupe' }
+,
+{countryCode: 'GU', name: 'Guam', label: 'Guam' }
+,
+{countryCode: 'GT', name: 'Guatemala', label: 'Guatemala' }
+,
+{countryCode: 'GG', name: 'Guernsey', label: 'Guernsey' }
+,
+{countryCode: 'GN', name: 'Guinea (Guinée)', label: 'Guinea (Guinée)' }
+,
+{countryCode: 'GW', name: 'Guinea-Bissau (Guiné-Bissau)', label: 'Guinea-Bissau (Guiné-Bissau)' }
+,
+{countryCode: 'GY', name: 'Guyana', label: 'Guyana' }
+,
+{countryCode: 'HT', name: 'Haiti', label: 'Haiti' }
+,
+{countryCode: 'HM', name: 'Heard und McDonaldinseln (Heard \x26 McDonald Islands)', label: 'Heard und McDonaldinseln (Heard \x26 McDonald Islands)' }
+,
+{countryCode: 'HN', name: 'Honduras', label: 'Honduras' }
+,
+{countryCode: 'HK', name: 'Hongkong (香港)', label: 'Hongkong (香港)' }
+,
+{countryCode: 'IN', name: 'Indien (भारत)', label: 'Indien (भारत)' }
+,
+{countryCode: 'ID', name: 'Indonesien (Indonesia)', label: 'Indonesien (Indonesia)' }
+,
+{countryCode: 'IQ', name: 'Irak (‫العراق‬‎)', label: 'Irak (‫العراق‬‎)' }
+,
+{countryCode: 'IR', name: 'Iran (‫ایران‬‎)', label: 'Iran (‫ایران‬‎)' }
+,
+{countryCode: 'IE', name: 'Irland (Ireland)', label: 'Irland (Ireland)' }
+,
+{countryCode: 'IS', name: 'Island (Ísland)', label: 'Island (Ísland)' }
+,
+{countryCode: 'IM', name: 'Isle of Man', label: 'Isle of Man' }
+,
+{countryCode: 'IL', name: 'Israel (‫ישראל‬‎)', label: 'Israel (‫ישראל‬‎)' }
+,
+{countryCode: 'IT', name: 'Italien (Italia)', label: 'Italien (Italia)' }
+,
+{countryCode: 'JM', name: 'Jamaika (Jamaica)', label: 'Jamaika (Jamaica)' }
+,
+{countryCode: 'JP', name: 'Japan (日本)', label: 'Japan (日本)' }
+,
+{countryCode: 'YE', name: 'Jemen (‫اليمن‬‎)', label: 'Jemen (‫اليمن‬‎)' }
+,
+{countryCode: 'JE', name: 'Jersey', label: 'Jersey' }
+,
+{countryCode: 'JO', name: 'Jordanien (‫الأردن‬‎)', label: 'Jordanien (‫الأردن‬‎)' }
+,
+{countryCode: 'KY', name: 'Kaimaninseln (Cayman Islands)', label: 'Kaimaninseln (Cayman Islands)' }
+,
+{countryCode: 'KH', name: 'Kambodscha (កម្ពុជា)', label: 'Kambodscha (កម្ពុជា)' }
+,
+{countryCode: 'CM', name: 'Kamerun (Cameroun)', label: 'Kamerun (Cameroun)' }
+,
+{countryCode: 'CA', name: 'Kanada (Canada)', label: 'Kanada (Canada)' }
+,
+{countryCode: 'IC', name: 'Kanarische Inseln (Canarias)', label: 'Kanarische Inseln (Canarias)' }
+,
+{countryCode: 'CV', name: 'Kap Verde (Kabu Verdi)', label: 'Kap Verde (Kabu Verdi)' }
+,
+{countryCode: 'KZ', name: 'Kasachstan (Казахстан)', label: 'Kasachstan (Казахстан)' }
+,
+{countryCode: 'QA', name: 'Katar (‫قطر‬‎)', label: 'Katar (‫قطر‬‎)' }
+,
+{countryCode: 'KE', name: 'Kenia (Kenya)', label: 'Kenia (Kenya)' }
+,
+{countryCode: 'KG', name: 'Kirgisistan (Кыргызстан)', label: 'Kirgisistan (Кыргызстан)' }
+,
+{countryCode: 'KI', name: 'Kiribati', label: 'Kiribati' }
+,
+{countryCode: 'CC', name: 'Kokosinseln (Kepulauan Cocos (Keeling))', label: 'Kokosinseln (Kepulauan Cocos (Keeling))' }
+,
+{countryCode: 'CO', name: 'Kolumbien (Colombia)', label: 'Kolumbien (Colombia)' }
+,
+{countryCode: 'KM', name: 'Komoren (‫جزر القمر‬‎)', label: 'Komoren (‫جزر القمر‬‎)' }
+,
+{countryCode: 'CG', name: 'Kongo-Brazzaville (Congo-Brazzaville)', label: 'Kongo-Brazzaville (Congo-Brazzaville)' }
+,
+{countryCode: 'CD', name: 'Kongo-Kinshasa (Jamhuri ya Kidemokrasia ya Kongo)', label: 'Kongo-Kinshasa (Jamhuri ya Kidemokrasia ya Kongo)' }
+,
+{countryCode: 'XK', name: 'Kosovo (Kosovë)', label: 'Kosovo (Kosovë)' }
+,
+{countryCode: 'HR', name: 'Kroatien (Hrvatska)', label: 'Kroatien (Hrvatska)' }
+,
+{countryCode: 'CU', name: 'Kuba (Cuba)', label: 'Kuba (Cuba)' }
+,
+{countryCode: 'KW', name: 'Kuwait (‫الكويت‬‎)', label: 'Kuwait (‫الكويت‬‎)' }
+,
+{countryCode: 'LA', name: 'Laos (ລາວ)', label: 'Laos (ລາວ)' }
+,
+{countryCode: 'LS', name: 'Lesotho', label: 'Lesotho' }
+,
+{countryCode: 'LV', name: 'Lettland (Latvija)', label: 'Lettland (Latvija)' }
+,
+{countryCode: 'LB', name: 'Libanon (‫لبنان‬‎)', label: 'Libanon (‫لبنان‬‎)' }
+,
+{countryCode: 'LR', name: 'Liberia', label: 'Liberia' }
+,
+{countryCode: 'LY', name: 'Libyen (‫ليبيا‬‎)', label: 'Libyen (‫ليبيا‬‎)' }
+,
+{countryCode: 'LI', name: 'Liechtenstein', label: 'Liechtenstein' }
+,
+{countryCode: 'LT', name: 'Litauen (Lietuva)', label: 'Litauen (Lietuva)' }
+,
+{countryCode: 'LU', name: 'Luxemburg (Luxembourg)', label: 'Luxemburg (Luxembourg)' }
+,
+{countryCode: 'MO', name: 'Macau (澳門)', label: 'Macau (澳門)' }
+,
+{countryCode: 'MG', name: 'Madagaskar (Madagasikara)', label: 'Madagaskar (Madagasikara)' }
+,
+{countryCode: 'MW', name: 'Malawi', label: 'Malawi' }
+,
+{countryCode: 'MY', name: 'Malaysia', label: 'Malaysia' }
+,
+{countryCode: 'MV', name: 'Malediven (Maldives)', label: 'Malediven (Maldives)' }
+,
+{countryCode: 'ML', name: 'Mali', label: 'Mali' }
+,
+{countryCode: 'MT', name: 'Malta', label: 'Malta' }
+,
+{countryCode: 'MA', name: 'Marokko (Morocco)', label: 'Marokko (Morocco)' }
+,
+{countryCode: 'MH', name: 'Marshallinseln (Marshall Islands)', label: 'Marshallinseln (Marshall Islands)' }
+,
+{countryCode: 'MQ', name: 'Martinique', label: 'Martinique' }
+,
+{countryCode: 'MR', name: 'Mauretanien (‫موريتانيا‬‎)', label: 'Mauretanien (‫موريتانيا‬‎)' }
+,
+{countryCode: 'MU', name: 'Mauritius (Moris)', label: 'Mauritius (Moris)' }
+,
+{countryCode: 'YT', name: 'Mayotte', label: 'Mayotte' }
+,
+{countryCode: 'MK', name: 'Mazedonien (Македонија)', label: 'Mazedonien (Македонија)' }
+,
+{countryCode: 'MX', name: 'Mexiko (México)', label: 'Mexiko (México)' }
+,
+{countryCode: 'FM', name: 'Mikronesien (Micronesia)', label: 'Mikronesien (Micronesia)' }
+,
+{countryCode: 'MC', name: 'Monaco', label: 'Monaco' }
+,
+{countryCode: 'MN', name: 'Mongolei (Монгол)', label: 'Mongolei (Монгол)' }
+,
+{countryCode: 'ME', name: 'Montenegro (Crna Gora)', label: 'Montenegro (Crna Gora)' }
+,
+{countryCode: 'MS', name: 'Montserrat', label: 'Montserrat' }
+,
+{countryCode: 'MZ', name: 'Mosambik (Moçambique)', label: 'Mosambik (Moçambique)' }
+,
+{countryCode: 'MM', name: 'Myanmar (မြန်မာ)', label: 'Myanmar (မြန်မာ)' }
+,
+{countryCode: 'NA', name: 'Namibia (Namibië)', label: 'Namibia (Namibië)' }
+,
+{countryCode: 'NR', name: 'Nauru', label: 'Nauru' }
+,
+{countryCode: 'NP', name: 'Nepal (नेपाल)', label: 'Nepal (नेपाल)' }
+,
+{countryCode: 'NC', name: 'Neukaledonien (Nouvelle-Calédonie)', label: 'Neukaledonien (Nouvelle-Calédonie)' }
+,
+{countryCode: 'NZ', name: 'Neuseeland (New Zealand)', label: 'Neuseeland (New Zealand)' }
+,
+{countryCode: 'NI', name: 'Nicaragua', label: 'Nicaragua' }
+,
+{countryCode: 'NL', name: 'Niederlande (Nederland)', label: 'Niederlande (Nederland)' }
+,
+{countryCode: 'NE', name: 'Niger (Nijar)', label: 'Niger (Nijar)' }
+,
+{countryCode: 'NG', name: 'Nigeria', label: 'Nigeria' }
+,
+{countryCode: 'NU', name: 'Niue', label: 'Niue' }
+,
+{countryCode: 'KP', name: 'Nordkorea (조선민주주의인민공화국)', label: 'Nordkorea (조선민주주의인민공화국)' }
+,
+{countryCode: 'MP', name: 'Nördliche Marianen (Northern Mariana Islands)', label: 'Nördliche Marianen (Northern Mariana Islands)' }
+,
+{countryCode: 'NF', name: 'Norfolkinsel (Norfolk Island)', label: 'Norfolkinsel (Norfolk Island)' }
+,
+{countryCode: 'NO', name: 'Norwegen (Norge)', label: 'Norwegen (Norge)' }
+,
+{countryCode: 'OM', name: 'Oman (‫عُمان‬‎)', label: 'Oman (‫عُمان‬‎)' }
+,
+{countryCode: 'AT', name: 'Österreich', label: 'Österreich' }
+,
+{countryCode: 'PK', name: 'Pakistan (‫پاکستان‬‎)', label: 'Pakistan (‫پاکستان‬‎)' }
+,
+{countryCode: 'PS', name: 'Palästina (‫فلسطين‬‎)', label: 'Palästina (‫فلسطين‬‎)' }
+,
+{countryCode: 'PW', name: 'Palau', label: 'Palau' }
+,
+{countryCode: 'PA', name: 'Panama (Panamá)', label: 'Panama (Panamá)' }
+,
+{countryCode: 'PG', name: 'Papua-Neuguinea (Papua New Guinea)', label: 'Papua-Neuguinea (Papua New Guinea)' }
+,
+{countryCode: 'PY', name: 'Paraguay', label: 'Paraguay' }
+,
+{countryCode: 'PE', name: 'Peru (Perú)', label: 'Peru (Perú)' }
+,
+{countryCode: 'PH', name: 'Philippinen (Philippines)', label: 'Philippinen (Philippines)' }
+,
+{countryCode: 'PN', name: 'Pitcairninseln (Pitcairn Islands)', label: 'Pitcairninseln (Pitcairn Islands)' }
+,
+{countryCode: 'PL', name: 'Polen (Polska)', label: 'Polen (Polska)' }
+,
+{countryCode: 'PT', name: 'Portugal', label: 'Portugal' }
+,
+{countryCode: 'PR', name: 'Puerto Rico', label: 'Puerto Rico' }
+,
+{countryCode: 'MD', name: 'Republik Moldau (Republica Moldova)', label: 'Republik Moldau (Republica Moldova)' }
+,
+{countryCode: 'RE', name: 'Réunion (La Réunion)', label: 'Réunion (La Réunion)' }
+,
+{countryCode: 'RW', name: 'Ruanda (Rwanda)', label: 'Ruanda (Rwanda)' }
+,
+{countryCode: 'RO', name: 'Rumänien (România)', label: 'Rumänien (România)' }
+,
+{countryCode: 'RU', name: 'Russland (Россия)', label: 'Russland (Россия)' }
+,
+{countryCode: 'SB', name: 'Salomonen (Solomon Islands)', label: 'Salomonen (Solomon Islands)' }
+,
+{countryCode: 'ZM', name: 'Sambia (Zambia)', label: 'Sambia (Zambia)' }
+,
+{countryCode: 'WS', name: 'Samoa', label: 'Samoa' }
+,
+{countryCode: 'SM', name: 'San Marino', label: 'San Marino' }
+,
+{countryCode: 'ST', name: 'São Tomé und Príncipe (São Tomé e Príncipe)', label: 'São Tomé und Príncipe (São Tomé e Príncipe)' }
+,
+{countryCode: 'SA', name: 'Saudi-Arabien (‫المملكة العربية السعودية‬‎)', label: 'Saudi-Arabien (‫المملكة العربية السعودية‬‎)' }
+,
+{countryCode: 'SE', name: 'Schweden (Sverige)', label: 'Schweden (Sverige)' }
+,
+{countryCode: 'CH', name: 'Schweiz', label: 'Schweiz' }
+,
+{countryCode: 'SN', name: 'Senegal', label: 'Senegal' }
+,
+{countryCode: 'RS', name: 'Serbien (Србија)', label: 'Serbien (Србија)' }
+,
+{countryCode: 'SC', name: 'Seychellen (Seychelles)', label: 'Seychellen (Seychelles)' }
+,
+{countryCode: 'SL', name: 'Sierra Leone', label: 'Sierra Leone' }
+,
+{countryCode: 'ZW', name: 'Simbabwe (Zimbabwe)', label: 'Simbabwe (Zimbabwe)' }
+,
+{countryCode: 'SG', name: 'Singapur (Singapore)', label: 'Singapur (Singapore)' }
+,
+{countryCode: 'SX', name: 'Sint Maarten', label: 'Sint Maarten' }
+,
+{countryCode: 'SK', name: 'Slowakei (Slovensko)', label: 'Slowakei (Slovensko)' }
+,
+{countryCode: 'SI', name: 'Slowenien (Slovenija)', label: 'Slowenien (Slovenija)' }
+,
+{countryCode: 'SO', name: 'Somalia (Soomaaliya)', label: 'Somalia (Soomaaliya)' }
+,
+{countryCode: 'ES', name: 'Spanien (España)', label: 'Spanien (España)' }
+,
+{countryCode: 'LK', name: 'Sri Lanka (ශ්‍රී ලංකාව)', label: 'Sri Lanka (ශ්‍රී ලංකාව)' }
+,
+{countryCode: 'BL', name: 'St. Barthélemy (Saint-Barthélemy)', label: 'St. Barthélemy (Saint-Barthélemy)' }
+,
+{countryCode: 'SH', name: 'St. Helena', label: 'St. Helena' }
+,
+{countryCode: 'KN', name: 'St. Kitts und Nevis (St. Kitts \x26 Nevis)', label: 'St. Kitts und Nevis (St. Kitts \x26 Nevis)' }
+,
+{countryCode: 'LC', name: 'St. Lucia', label: 'St. Lucia' }
+,
+{countryCode: 'MF', name: 'St. Martin (Saint-Martin)', label: 'St. Martin (Saint-Martin)' }
+,
+{countryCode: 'PM', name: 'St. Pierre und Miquelon (Saint-Pierre-et-Miquelon)', label: 'St. Pierre und Miquelon (Saint-Pierre-et-Miquelon)' }
+,
+{countryCode: 'VC', name: 'St. Vincent und die Grenadinen (St. Vincent \x26 Grenadines)', label: 'St. Vincent und die Grenadinen (St. Vincent \x26 Grenadines)' }
+,
+{countryCode: 'ZA', name: 'Südafrika (South Africa)', label: 'Südafrika (South Africa)' }
+,
+{countryCode: 'SD', name: 'Sudan (‫السودان‬‎)', label: 'Sudan (‫السودان‬‎)' }
+,
+{countryCode: 'GS', name: 'Südgeorgien und die Südlichen Sandwichinseln (South Georgia \x26 South Sandwich Islands)', label: 'Südgeorgien und die Südlichen Sandwichinseln (South Georgia \x26 South Sandwich Islands)' }
+,
+{countryCode: 'KR', name: 'Südkorea (대한민국)', label: 'Südkorea (대한민국)' }
+,
+{countryCode: 'SS', name: 'Südsudan (‫جنوب السودان‬‎)', label: 'Südsudan (‫جنوب السودان‬‎)' }
+,
+{countryCode: 'SR', name: 'Suriname', label: 'Suriname' }
+,
+{countryCode: 'SJ', name: 'Svalbard und Jan Mayen (Svalbard og Jan Mayen)', label: 'Svalbard und Jan Mayen (Svalbard og Jan Mayen)' }
+,
+{countryCode: 'SZ', name: 'Swasiland (Swaziland)', label: 'Swasiland (Swaziland)' }
+,
+{countryCode: 'SY', name: 'Syrien (‫سوريا‬‎)', label: 'Syrien (‫سوريا‬‎)' }
+,
+{countryCode: 'TJ', name: 'Tadschikistan (Tajikistan)', label: 'Tadschikistan (Tajikistan)' }
+,
+{countryCode: 'TW', name: 'Taiwan (台灣)', label: 'Taiwan (台灣)' }
+,
+{countryCode: 'TZ', name: 'Tansania (Tanzania)', label: 'Tansania (Tanzania)' }
+,
+{countryCode: 'TH', name: 'Thailand (ไทย)', label: 'Thailand (ไทย)' }
+,
+{countryCode: 'TL', name: 'Timor-Leste', label: 'Timor-Leste' }
+,
+{countryCode: 'TG', name: 'Togo', label: 'Togo' }
+,
+{countryCode: 'TK', name: 'Tokelau', label: 'Tokelau' }
+,
+{countryCode: 'TO', name: 'Tonga', label: 'Tonga' }
+,
+{countryCode: 'TT', name: 'Trinidad und Tobago (Trinidad \x26 Tobago)', label: 'Trinidad und Tobago (Trinidad \x26 Tobago)' }
+,
+{countryCode: 'TA', name: 'Tristan da Cunha', label: 'Tristan da Cunha' }
+,
+{countryCode: 'TD', name: 'Tschad (Tchad)', label: 'Tschad (Tchad)' }
+,
+{countryCode: 'CZ', name: 'Tschechische Republik (Česká republika)', label: 'Tschechische Republik (Česká republika)' }
+,
+{countryCode: 'TN', name: 'Tunesien (Tunisia)', label: 'Tunesien (Tunisia)' }
+,
+{countryCode: 'TR', name: 'Türkei (Türkiye)', label: 'Türkei (Türkiye)' }
+,
+{countryCode: 'TM', name: 'Turkmenistan', label: 'Turkmenistan' }
+,
+{countryCode: 'TC', name: 'Turks- und Caicosinseln (Turks \x26 Caicos Islands)', label: 'Turks- und Caicosinseln (Turks \x26 Caicos Islands)' }
+,
+{countryCode: 'TV', name: 'Tuvalu', label: 'Tuvalu' }
+,
+{countryCode: 'UG', name: 'Uganda', label: 'Uganda' }
+,
+{countryCode: 'UA', name: 'Ukraine (Україна)', label: 'Ukraine (Україна)' }
+,
+{countryCode: 'HU', name: 'Ungarn (Magyarország)', label: 'Ungarn (Magyarország)' }
+,
+{countryCode: 'UY', name: 'Uruguay', label: 'Uruguay' }
+,
+{countryCode: 'UZ', name: 'Usbekistan (Oʻzbekiston)', label: 'Usbekistan (Oʻzbekiston)' }
+,
+{countryCode: 'VU', name: 'Vanuatu', label: 'Vanuatu' }
+,
+{countryCode: 'VA', name: 'Vatikanstadt (Città del Vaticano)', label: 'Vatikanstadt (Città del Vaticano)' }
+,
+{countryCode: 'VE', name: 'Venezuela', label: 'Venezuela' }
+,
+{countryCode: 'AE', name: 'Vereinigte Arabische Emirate (‫الإمارات العربية المتحدة‬‎)', label: 'Vereinigte Arabische Emirate (‫الإمارات العربية المتحدة‬‎)' }
+,
+{countryCode: 'GB', name: 'Vereinigtes Königreich (United Kingdom)', label: 'Vereinigtes Königreich (United Kingdom)' }
+,
+{countryCode: 'US', name: 'Vereinigte Staaten (United States)', label: 'Vereinigte Staaten (United States)' }
+,
+{countryCode: 'VN', name: 'Vietnam (Việt Nam)', label: 'Vietnam (Việt Nam)' }
+,
+{countryCode: 'WF', name: 'Wallis und Futuna (Wallis \x26 Futuna)', label: 'Wallis und Futuna (Wallis \x26 Futuna)' }
+,
+{countryCode: 'CX', name: 'Weihnachtsinsel (Christmas Island)', label: 'Weihnachtsinsel (Christmas Island)' }
+,
+{countryCode: 'EH', name: 'Westsahara (‫الصحراء الغربية‬‎)', label: 'Westsahara (‫الصحراء الغربية‬‎)' }
+,
+{countryCode: 'CF', name: 'Zentralafrikanische Republik (République centrafricaine)', label: 'Zentralafrikanische Republik (République centrafricaine)' }
+,
+{countryCode: 'CY', name: 'Zypern (Κύπρος)', label: 'Zypern (Κύπρος)' }
+]

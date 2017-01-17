@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration debug="false"
+	xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%d{ABSOLUTE} %-5p [%10.10t][%17.17c] [%X{RBG_USER}|%X{RBG_UNIT}|%X{RBG_SESSION_CORRELATION}]: %m%n" />
+		</layout>
+	</appender>
+
+
+	<appender name="SQLONLY_FILE" class="org.apache.log4j.FileAppender">
+		<param name="File" value="sql.log" />
+		<param name="Append" value="false" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%.500m%n" />
+		</layout>
+	</appender>
+
+
+
+	<logger name="jdbc.sqlonly" additivity="false">
+		<!-- <appender-ref ref="STDOUT" /> -->
+		<level value="info" />
+		<appender-ref ref="SQLONLY_FILE" />
+	</logger>
+	<logger name="jdbc.sqltiming" additivity="false">
+		<appender-ref ref="STDOUT" />
+	</logger>
+	<!-- <logger name="jdbc.connection" additivity="false"> -->
+	<!-- <level value="info" > -->
+	<!-- <appender-ref ref="STDOUT" > -->
+	<!-- <logger> -->
+
+	<!-- log4jdbc option log the jdbc results as a table -->
+	<!-- <logger name="jdbc.resultsettable" additivity="false"> -->
+	<!-- <level value="info" /> -->
+	<!-- <appender-ref ref="SQLONLY_FILE" /> -->
+	<!-- </logger> -->
+
+
+	<root>
+		<priority value="ERROR" />
+		<appender-ref ref="STDOUT" />
+	</root>
+</log4j:configuration>
