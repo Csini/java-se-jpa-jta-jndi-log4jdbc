@@ -1,6 +1,3 @@
-/*
- * Created on 10.09.2016 Copyright (c) 2000 - 2016 by Raiffeisen Software GmbH, All rights reserved.
- */
 package net.csini;
 
 import java.io.BufferedReader;
@@ -39,6 +36,10 @@ import jdk.nashorn.api.scripting.ScriptObjectMirror;
 import net.csini.entity.Land;
 import net.sf.log4jdbc.Log4jdbcProxyDataSource;
 
+/**
+ * 
+ * @author csini
+ */
 public class Applikation {
 	private static final String PAK_PERSISTENCE_UNIT = "pakPersistence";
 	private static final String JNDI = "java:jboss/datasources/PakDB";
@@ -46,7 +47,6 @@ public class Applikation {
 	private final static Logger LOG = Logger.getLogger(Applikation.class);
 
 	public static void main(String[] args) throws Exception {
-		// bind();
 
 		System.setProperty(Context.INITIAL_CONTEXT_FACTORY, "org.apache.naming.java.javaURLContextFactory");
 		System.setProperty(Context.URL_PKG_PREFIXES, "org.apache.naming");
@@ -54,7 +54,6 @@ public class Applikation {
 		System.setProperty("file.encoding", "UTF-8");
 
 		final BasicDataSource ds = new BasicDataSource();
-		// ds.setUrl("jdbc:derby:memory:myDB;create=true");
 		ds.setUrl("jdbc:h2:mem:pak;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=DB2;create=true");
 		ds.setUsername("sa");
 		ds.setDriverClassName("org.h2.jdbcx.JdbcDataSource");
@@ -62,9 +61,6 @@ public class Applikation {
 
 		final Context context = new InitialContext();
 		try {
-
-			// context.addToEnvironment(PAK_PERSISTENCE_UNIT + "." +
-			// "non-jta-data-source", JNDI);
 
 			context.createSubcontext("java:");
 			context.createSubcontext("java:jboss");
@@ -75,48 +71,16 @@ public class Applikation {
 
 			LOG.info(context);
 
-			// lookup();
 
 			Map<String, String> persistenceMap = new HashMap<String, String>();
 
-			// persistenceMap.put("javax.persistence.jdbc.url", "<url>");
-			// persistenceMap.put("javax.persistence.jdbc.user", "<username>");
-			// persistenceMap.put("javax.persistence.jdbc.password",
-			// "<password>");
-			// persistenceMap.put("javax.persistence.jdbc.driver", "<driver>");
-
-			// persistenceMap.put("hibernate.transaction.jta.platform_resolver",
-			// "org.hibernate.engine.transaction.jta.platform.spi.JtaPlatformResolver");
-			// persistenceMap.put("hibernate.transaction.jta.platform","org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform");
-			// persistenceMap.put("hibernate.transaction.jta.platform","org.hibernate.service.jta.platform.internal.NoJtaPlatform");
-
-			// persistenceMap.put("javax.persistence.transactionType",
-			// "RESOURCE_LOCAL");
-			// persistenceMap.put("hibernate.transaction.coordinator_class","jdbc");
-			// persistenceMap.put("javax.persistence.jtaDataSource", null);
-			// persistenceMap.put("hibernate.transaction.manager_lookup_class",
-			// "org.hibernate.transaction.JBossTransactionManagerLookup");
-
-			// persistenceMap.put("javax.persistence.jdbc.user", "sa");
-			// persistenceMap.put(org.hibernate.cfg.AvailableSettings.PASS, "");
-
-			// persistenceMap.put("javax.persistence.jdbc.url",
-			// "jdbc:h2:mem:pak;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE");
-
-			// persistenceMap.put("hibernate.connection.release_mode", null);
-
 			persistenceMap.put("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
-
-			// persistenceMap.put("javax.persistence.jdbc.driver",
-			// "org.h2.Driver");
 
 			final EntityManagerFactory emf = Persistence.createEntityManagerFactory(PAK_PERSISTENCE_UNIT,
 					persistenceMap);
-			// populate(emf);
 
 			processExcel(emf);
 
-			// query(emf);
 		} finally {
 			context.close();
 		}
@@ -128,7 +92,6 @@ public class Applikation {
 		System.setProperty(Context.URL_PKG_PREFIXES, "org.apache.naming");
 
 		final BasicDataSource ds = new BasicDataSource();
-		// ds.setUrl("jdbc:derby:memory:myDB;create=true");
 		ds.setUrl(
 				"jdbc:h2:mem:pak;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=DB2;create=true?characterEncoding=UTF-8 ");
 		ds.setUsername("sa");
@@ -139,8 +102,6 @@ public class Applikation {
 		try {
 			context.createSubcontext("java:");
 			context.createSubcontext("java:jboss");
-			// context.createSubcontext("java:jboss/datasources");
-			// context.createSubcontext("java:jboss/datasources/nonjta");
 			context.createSubcontext("java:jboss/datasources/PakDB");
 			context.bind(JNDI, ds);
 		} finally {
@@ -169,8 +130,6 @@ public class Applikation {
 			HeuristicMixedException, HeuristicRollbackException {
 		final EntityManager em = emf.createEntityManager();
 		try {
-			// final EntityTransaction tx = em.getTransaction();
-			// tx.begin();
 
 			BitronixTransactionManager btm = TransactionManagerServices.getTransactionManager();
 
@@ -182,7 +141,6 @@ public class Applikation {
 			emp.setCode("XX");
 			emp.setLabel("ZootropiaÃ¤Ã¤Ã¤Ã¤Ã¤Ã¶Ã¶Ã¶Ã¶Ã¶Ã¶");
 			em.persist(emp);
-			// tx.commit();
 
 			btm.commit();
 
@@ -232,8 +190,6 @@ public class Applikation {
 			}
 
 			
-
-			// tx.commit();
 
 			btm.commit();
 

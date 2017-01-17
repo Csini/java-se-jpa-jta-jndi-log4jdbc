@@ -1,6 +1,3 @@
-/*
- * Created on 12.09.2016 Copyright (c) 2000 - 2016 by Raiffeisen Software GmbH, All rights reserved.
- */
 package net.csini.entity;
 
 import javax.persistence.Entity;
@@ -8,7 +5,7 @@ import javax.persistence.Table;
 
 /**
  * 
- * @author VSYPB01
+ * @author csini
  *
  */
 @Table(name = "LAND")
